@@ -9,11 +9,11 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-java-repl.git"
+    "url": "git@github.com:thoersch/hubot-java-repl.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-java-repl/issues"
+    "url": "https://github.com/thoersch/hubot-java-repl/issues"
   },
 
   "dependencies": {
