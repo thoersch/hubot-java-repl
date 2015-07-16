@@ -28,7 +28,7 @@ module.exports = (robot) ->
 
         jsonBody = JSON.parse(body)
         id = jsonBody.id
-        data = "id="+id+"&expression="+expression
+        data = "id=#{id}&expression=#{expression}"
         msg.http(execute_url)
           .header("Content-Type", "application/x-www-form-urlencoded")
           .post(data) (err, res, body) ->
